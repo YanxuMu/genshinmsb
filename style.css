@@ -1,0 +1,81 @@
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#search-input {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  margin-right: 10px;
+  padding-left: 10px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+button {
+  height: 30px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#search-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.image-grid img {
+  width: 50%;
+  height: auto;
+}
+
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+  background-color: #96BEBE;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
